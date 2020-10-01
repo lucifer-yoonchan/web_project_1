@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(12, 7, 7);
+}
+.head{
+    /*max-width: less nadezniy;*/
+    width: calc(100%-90px);
+    position: relative;
+    padding: 45px;
+}
+.logo{
+    width: 374px;
+    height: 54px;
+    background-image: url(pic/logo.png);
+}
+.menu-item{
+    color: whitesmoke;
+    font-size: 24px;
+    font-family: "Cambria", fantasy;
+    display: inline-block;
+    margin-left: 40px;
+}
+.menu{
+    position: absolute;
+    right: 45px;
+    top: 45px; 
+}
